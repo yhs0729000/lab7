@@ -1,0 +1,35 @@
+Script started on 2017年06月13日 (週二) 05時24分13秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab7 $[00m make
+g++ -c genMino.h
+g++ -c tetris.cpp  
+g++ -c genMino.cpp  
+g++ -o tetris tetris.o genMino.o Mino.o MinoI.o MinoS.o MinoL.o Minoten.o
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab7 $[00m makeexitqtcreatorcd Qt5.7.0[1Pqtcreator[5Pexitmake[K./tetris
+0010
+0010
+0010
+0010
+0000
+0100
+0100
+0110
+0000
+0000
+0011
+0110
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab7 $[00m ./tetris
+0000
+0110
+0010
+0011
+0000
+0100
+0100
+0110
+0010
+0010
+0010
+0010
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab7 $[00m ^C
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab7 $[00m 
+Script done on 2017年06月13日 (週二) 05時24分41秒
